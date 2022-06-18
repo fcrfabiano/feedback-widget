@@ -1,11 +1,9 @@
-import { useState } from "react";
+import { Widget } from "./components/Widget";
 
-function App() {
+export function App() {
   return (
     <div className="App">
-      <button className="bg-violet-500">ok</button>
+      <Widget />
     </div>
   );
 }
-
-export default App;
